@@ -8,12 +8,12 @@ const InvitePage = () => {
       {/* WRAPPER */}
 
       {/* OPENING */}
-      <div className="w-full px-4 bg-gradient-to-r bg-white  h-screen flex flex-col justify-between items-center py-12">
+      <div className="w-full px-4 bg-gradient-to-r bg-white  h-screen flex flex-col justify-center items-center ">
         <p className="font-hand font-bold italic text-center mx-auto text-xl text-black ">
           Undangan Walimatul Urs
         </p>
 
-        <div className="flex relative w-60 h-60 mx-auto ">
+        <div className="flex relative w-60 h-60 mx-auto mt-8 mb-6">
           <Image
             layout="fill"
             src="/icons/gunung-wayang.svg"
