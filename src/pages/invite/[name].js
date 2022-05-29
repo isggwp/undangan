@@ -20,7 +20,7 @@ const InvitePage = () => {
         <InvitedName />
       </div>
 
-      <div className="w-full px-4 bg-gradient-to-r bg-gray-100 h-screen flex flex-col justify-center items-center py-10">
+      <div className="w-full px-4 bg-gradient-to-r bg-gray-300 h-screen flex flex-col justify-center items-center py-10">
         <p className="font-serif font-thin italic text-center mx-auto text-lg text-black opacity-70">
           Undangan Walimatul Urs
         </p>
@@ -81,7 +81,7 @@ const InvitePage = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="mx-auto text-black text-monospace underline italic truncate font-medium w-48 text-center mt-10">
+          <p className="mx-auto text-black text-monospace italic truncate font-medium w-48 text-center mt-10">
             https://goo.gl/maps/k6YcmWH9MqBw7dHN9
           </p>
         </a>
