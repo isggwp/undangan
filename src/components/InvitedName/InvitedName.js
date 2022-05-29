@@ -11,7 +11,7 @@ const InvitedName = () => {
         <p className="text-xs text-gray-800 font-sans italic text-center ">
           Kepada Yth Bapak/Ibu/Saudara/i
         </p>
-        <h1 className="font-hand text-3xl text-black text-center font-bold">
+        <h1 className="font-hand text-3xl text-black text-center font-bold capitalize">
           {isReady ? name.replace(/-/g, ' ') : 'fulan'}
         </h1>
       </div>

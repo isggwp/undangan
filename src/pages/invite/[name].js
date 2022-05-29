@@ -8,8 +8,12 @@ const InvitePage = () => {
       {/* WRAPPER */}
 
       {/* OPENING */}
-      <div className="w-full px-4 bg-gradient-to-r bg-white  h-screen flex flex-col justify-center items-center">
-        <div className="flex relative w-60 h-60 mx-auto mb-5">
+      <div className="w-full px-4 bg-gradient-to-r bg-white  h-screen flex flex-col justify-between items-center py-12">
+        <p className="font-hand font-bold italic text-center mx-auto text-xl text-black ">
+          Undangan Walimatul Urs
+        </p>
+
+        <div className="flex relative w-60 h-60 mx-auto ">
           <Image
             layout="fill"
             src="/icons/gunung-wayang.svg"
@@ -20,27 +24,25 @@ const InvitePage = () => {
         <InvitedName />
       </div>
 
-      <div className="w-full px-4 bg-gradient-to-r bg-gray-300 h-screen flex flex-col justify-center items-center py-10">
-        <p className="font-serif font-thin italic text-center mx-auto text-lg text-black opacity-70">
-          Undangan Walimatul Urs
-        </p>
-
+      <div className="w-full px-4 bg-gradient-to-r bg-black h-screen flex flex-col justify-center items-center py-10">
         <div className="w-full mx-auto">
-          <p className="w-full text-center font-hand font-bold text-4xl mt-10">
+          <p className="w-full text-center text-white font-hand font-bold text-4xl mt-10">
             Indra Susila
           </p>
 
-          <p className="w-full text-center font-sans font-normal text-xs italic">
+          <p className="w-full text-center font-sans font-normal text-xs italic text-white">
             (Putra Bapak Ridwan Abdul Mujib)
           </p>
 
-          <p className="w-full text-center font-hand font-bold text-5xl">&</p>
+          <p className="w-full text-center font-hand font-bold text-5xl text-white">
+            &
+          </p>
 
-          <p className="w-full text-center font-hand font-bold text-4xl">
+          <p className="w-full text-center font-hand font-bold text-4xl text-white">
             Ratih Hasanah
           </p>
 
-          <p className="w-full text-center font-sans font-normal text-xs italic">
+          <p className="w-full text-center font-sans font-normal text-xs italic text-white">
             (Putri dari Bapak Zainudin)
           </p>
         </div>
