@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import InvitedName from '../../components/InvitedName/InvitedName';
 
@@ -31,7 +32,7 @@ const InvitePage = () => {
           </p>
 
           <p className="w-full text-center font-sans font-normal text-xs italic text-white">
-            (Putra Bapak Ridwan Abdul Mujib)
+            (Putra dari Bapak Ridwan Abdul Mujib)
           </p>
 
           <p className="w-full text-center font-hand font-bold text-5xl text-white">
@@ -79,41 +80,51 @@ const InvitePage = () => {
         </div>
 
         <a
-          href="https://goo.gl/maps/k6YcmWH9MqBw7dHN9"
+          href="https://maps.app.goo.gl/6eDkQKWiJH8QkZ3k9"
           target="_blank"
           rel="noreferrer"
         >
-          <p className="mx-auto text-black text-monospace italic truncate font-medium w-48 text-center mt-10">
-            https://goo.gl/maps/k6YcmWH9MqBw7dHN9
+          <p className="mx-auto text-black text-monospace italic truncate font-medium  text-center mt-10 w-48">
+            https://maps.app.goo.gl/6eDkQKWiJH8QkZ3k9
           </p>
         </a>
 
         <div className="w-full mx-auto bg-transparent mt-2">
           <p className="text-center text-sm font-sans italic leading-7 tracking-wider font-normal">
-            Bertempat di kediaman mempelai wanita Gang Pelem Pasir putih
-            Sawangan Depok.
+            Bertempat di kediaman mempelai wanita di Jalan Raya Pasir Putih,
+            Gang Pelem, No:46 RT 05, RW 01, Sawangan Depok.
           </p>
         </div>
-      </div>
 
-      {/* CLOSING */}
-      <div className="w-full px-4 bg-gradient-to-r bg-black  h-screen flex flex-col justify-start items-center py-10">
-        <div className="w-full px-4 mx-auto">
-          <p className="font-sans text-white italic text-sm leading-7 text-center">
+        <div className="w-full mx-auto bg-transparent mt-6">
+          <p className="text-center text-sm font-sans italic leading-7 tracking-wider font-normal">
+            Dan demi terjaganya dari campur baur, insyaAllah dalam resepsi
+            pernikahan nanti tamu laki-laki dan perempuan akan dipisah.
+          </p>
+        </div>
+
+        <div className="flex w-full mx-auto mt-16">
+          <img
+            className="w-full h-auto"
+            src="/icons/map-pesta.svg"
+            alt="denah lokasi pesta"
+          />
+        </div>
+
+        <div className="w-full px-4 mx-auto mt-16">
+          <p className="font-sans italic text-sm leading-7 text-center">
             Merupakan suatu kehormatan & kebahagiaan bagi kami apabila
             Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do&apos;a restu
             kepada kedua mempelai.
           </p>
 
-          <p className="font-sans text-white italic text-sm leading-7 text-center mt-8">
+          <p className="font-sans italic text-sm leading-7 text-center mt-8">
             waalaikumsalam warahmatullahi wabarakatuh
           </p>
         </div>
 
         <div className="w-full mx-auto mt-20">
-          <p className="font-sans text-white text-center tracking-widest ">
-            ...
-          </p>
+          <p className="font-sans text-center tracking-widest ">...</p>
         </div>
       </div>
     </div>
