@@ -5,7 +5,7 @@ import InvitedName from '../../components/InvitedName/InvitedName';
 const InvitePage = () => {
   return (
     // CONTAINER
-    <div className="w-full flex flex-col bg-white mx-auto justify-center max-w-3xl md:hidden">
+    <div className="w-full flex flex-col bg-white mx-auto justify-center max-w-md ">
       {/* WRAPPER */}
 
       {/* OPENING */}
