@@ -28,7 +28,7 @@ const InvitePage = () => {
           </p>
 
           <p className="w-full text-center font-sans font-normal text-xs italic text-white">
-            (Putra dari Bapak Ridwan Abdul Mujib)
+            (Putra Pertama dari Bapak Ridwan Abdul Mujib & Ibu Sumarsih)
           </p>
 
           <p className="w-full text-center font-hand font-bold text-5xl text-white">
@@ -40,7 +40,7 @@ const InvitePage = () => {
           </p>
 
           <p className="w-full text-center font-sans font-normal text-xs italic text-white">
-            (Putri dari Bapak Zainudin)
+            (Putri dari Bapak Zainudin & Ibu Sulistiawati)
           </p>
         </div>
       </div>
@@ -78,7 +78,7 @@ const InvitePage = () => {
         <div className="w-full mx-auto bg-transparent mt-8">
           <p className="text-center text-sm font-sans italic leading-7 tracking-wider font-normal">
             Bertempat di kediaman mempelai wanita di Jalan Raya Pasir Putih,
-            Gang Pelem, No:46 RT 05, RW 01, Sawangan Depok.
+            Gang Palem, No 46, RT 05, RW 01, Sawangan Depok.
           </p>
         </div>
 
