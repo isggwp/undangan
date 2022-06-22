@@ -15,11 +15,7 @@ const InvitePage = () => {
         </p>
 
         <div className="flex relative w-60 h-60 mx-auto mt-8 mb-6">
-          <Image
-            layout="fill"
-            src="/icons/gunung-wayang.svg"
-            alt="bunga cinta"
-          />
+          <Image layout="fill" src="/icons/gunung-wayang.svg" alt="gunung" />
         </div>
 
         <InvitedName />
@@ -79,6 +75,21 @@ const InvitePage = () => {
           </p>
         </div>
 
+        <div className="w-full mx-auto bg-transparent mt-8">
+          <p className="text-center text-sm font-sans italic leading-7 tracking-wider font-normal">
+            Bertempat di kediaman mempelai wanita di Jalan Raya Pasir Putih,
+            Gang Pelem, No:46 RT 05, RW 01, Sawangan Depok.
+          </p>
+        </div>
+
+        <div className="flex w-full mx-auto mt-10 px-2">
+          <img
+            className="w-full h-auto"
+            src="/icons/peta-lokasi.svg"
+            alt="lokasi pesta"
+          />
+        </div>
+
         <a
           href="https://maps.app.goo.gl/6eDkQKWiJH8QkZ3k9"
           target="_blank"
@@ -89,21 +100,14 @@ const InvitePage = () => {
           </p>
         </a>
 
-        <div className="w-full mx-auto bg-transparent mt-2">
-          <p className="text-center text-sm font-sans italic leading-7 tracking-wider font-normal">
-            Bertempat di kediaman mempelai wanita di Jalan Raya Pasir Putih,
-            Gang Pelem, No:46 RT 05, RW 01, Sawangan Depok.
-          </p>
-        </div>
-
-        <div className="w-full mx-auto bg-transparent mt-6">
+        <div className="w-full mx-auto bg-transparent mt-12">
           <p className="text-center text-sm font-sans italic leading-7 tracking-wider font-normal">
             Dan demi terjaganya dari campur baur, insyaAllah dalam resepsi
             pernikahan nanti tamu laki-laki dan perempuan akan dipisah.
           </p>
         </div>
 
-        <div className="flex w-full mx-auto mt-16">
+        <div className="flex w-full mx-auto mt-16 px-2">
           <img
             className="w-full h-auto"
             src="/icons/map-pesta.svg"
