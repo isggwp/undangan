@@ -40,7 +40,7 @@ const InvitePage = () => {
           </p>
 
           <p className="w-full text-center font-sans font-normal text-xs italic text-white">
-            (Putri dari Bapak Zainudin & Ibu Sulistiawati)
+            (Putri Pertama dari Bapak Zainudin & Ibu Sulistyowati)
           </p>
         </div>
       </div>
