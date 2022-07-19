@@ -28,7 +28,7 @@ const InvitePage = () => {
           </p>
 
           <p className="w-full text-center font-sans font-normal text-xs italic text-white">
-            (Putra Pertama dari Bapak Ridwan Abdul Mujib & Ibu Sumarsih)
+            (Putra Pertama dari Bapak Ridwan Abdul Mujib (Alm) & Ibu Sumarsih)
           </p>
 
           <p className="w-full text-center font-hand font-bold text-5xl text-white">
@@ -46,7 +46,7 @@ const InvitePage = () => {
       </div>
 
       {/* MAIN INFORMATION */}
-      <div className="w-full px-4 bg-gradient-to-r bg-white h-auto flex flex-col  py-20">
+      <div className="w-full px-4 bg-gradient-to-r bg-white h-auto flex flex-col mt-10 py-20">
         {/* SALAM */}
         <div className="w-full mx-auto">
           <p className="font-hand text-2xl font-balck text-center mx-auto  font-bold text-gray-800">
@@ -71,11 +71,11 @@ const InvitePage = () => {
           </p>
 
           <p className="text-center font-medium text-lg font-sans italic text-black mt-1">
-            09:00 pagi s/d 17:30 sore
+            09:00 pagi s/d 16:30 sore
           </p>
         </div>
 
-        <div className="w-full mx-auto bg-transparent mt-8">
+        <div className="w-full mx-auto bg-transparent mt-8 mb-20">
           <p className="text-center text-sm font-sans italic leading-7 tracking-wider font-normal">
             Bertempat di kediaman mempelai wanita di Jalan Raya Pasir Putih,
             Gang Palem, No 46, RT 05, RW 01, Sawangan Depok.
@@ -95,7 +95,7 @@ const InvitePage = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <p className="mx-auto text-black text-monospace italic truncate font-medium  text-center mt-10 w-48">
+          <p className="mx-auto text-black text-monospace italic truncate font-medium  text-center mt-20 mb-5 w-9/12">
             https://maps.app.goo.gl/6eDkQKWiJH8QkZ3k9
           </p>
         </a>
