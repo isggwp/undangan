@@ -71,7 +71,7 @@ const InvitePage = () => {
           </p>
 
           <p className="text-center font-medium text-lg font-sans italic text-black mt-1">
-            09:00 pagi s/d 16:30 sore
+            08:00 pagi s/d 16:00 sore
           </p>
         </div>
 
